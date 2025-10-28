@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery -  support and association help ignored (SAATHI)</title>
+    <meta name="description" content="Explore photos and videos showcasing Bikalpbiswa Foundation's programs, events, and impact in communities across Nepal.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +977-1-4123456</span>
+                    <span><i class="fas fa-envelope"></i> info@bikalpbiswa.org</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="assets\logo.jpg" alt="Bikalpbiswa Foundation Logo">
+                    <div class="logo-text">
+                        <h1>SAATHI</h1>
+                        <p>Support and association to help ignored</p>
+                    </div>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="campaign.html">Campaign</a></li>
+                    <li><a href="work-with-us.html">Work With Us</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Photo Gallery</h1>
+            <p>Capturing moments of change, hope, and community empowerment</p>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li><a href="index.html">Home</a></li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Browse by Category</h2>
+                <p class="section-subtitle">Explore our work across different programs and initiatives</p>
+            </div>
+            <div class="gallery-categories" style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
+                <button class="btn btn-outline category-filter active" data-category="all">All Photos</button>
+                <button class="btn btn-outline category-filter" data-category="health">Health Programs</button>
+                <button class="btn btn-outline category-filter" data-category="education">Education</button>
+                <button class="btn btn-outline category-filter" data-category="community">Community Events</button>
+                <button class="btn btn-outline category-filter" data-category="campaigns">Campaigns</button>
+                <button class="btn btn-outline category-filter" data-category="training">Training & Workshops</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Gallery -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Photos</h2>
+                <p class="section-subtitle">Highlighting our most impactful moments</p>
+            </div>
+            <div class="featured-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <div class="gallery-item" data-category="health">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=500&h=350&fit=crop" alt="Mobile health camp in rural Nepal">
+                    <div class="gallery-overlay">
+                        <h4>Mobile Health Camp</h4>
+                        <p>Providing essential medical services in Sindhupalchok district</p>
+                        <span class="gallery-date">December 2024</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="education">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=350&fit=crop" alt="Children in classroom">
+                    <div class="gallery-overlay">
+                        <h4>New School Opening</h4>
+                        <p>Celebrating the opening of our 25th school in rural communities</p>
+                        <span class="gallery-date">November 2024</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=500&h=350&fit=crop" alt="Community gathering">
+                    <div class="gallery-overlay">
+                        <h4>Community Development Meeting</h4>
+                        <p>Local leaders discussing sustainable development initiatives</p>
+                        <span class="gallery-date">October 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Gallery Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work in Pictures</h2>
+                <p class="section-subtitle">Browse through our collection of program photos and events</p>
+            </div>
+            <div class="gallery-grid">
+                <!-- Health Programs -->
+                <div class="gallery-item" data-category="health">
+                    <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=400&h=300&fit=crop" alt="Maternal health checkup">
+                    <div class="gallery-overlay">
+                        <h4>Maternal Health Program</h4>
+                        <p>Prenatal care services in Karnali region</p>
+                        <span class="gallery-date">December 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="health">
+                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop" alt="Vaccination campaign">
+                    <div class="gallery-overlay">
+                        <h4>Child Vaccination Campaign</h4>
+                        <p>Immunizing children against preventable diseases</p>
+                        <span class="gallery-date">November 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="health">
+                    <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=300&fit=crop" alt="Health education session">
+                    <div class="gallery-overlay">
+                        <h4>Health Education Workshop</h4>
+                        <p>Teaching hygiene and nutrition practices</p>
+                        <span class="gallery-date">October 2024</span>
+                    </div>
+                </div>
+
+                <!-- Education Programs -->
+                <div class="gallery-item" data-category="education">
+                    <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=300&fit=crop" alt="Computer training class">
+                    <div class="gallery-overlay">
+                        <h4>Digital Literacy Training</h4>
+                        <p>Computer skills workshop for youth</p>
+                        <span class="gallery-date">December 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="education">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop" alt="Students studying">
+                    <div class="gallery-overlay">
+                        <h4>Scholarship Recipients</h4>
+                        <p>Students benefiting from our scholarship program</p>
+                        <span class="gallery-date">November 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="education">
+                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=300&fit=crop" alt="School library">
+                    <div class="gallery-overlay">
+                        <h4>Library Inauguration</h4>
+                        <p>Opening of new library facilities</p>
+                        <span class="gallery-date">September 2024</span>
+                    </div>
+                </div>
+
+                <!-- Community Events -->
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&h=300&fit=crop" alt="Agricultural training">
+                    <div class="gallery-overlay">
+                        <h4>Farmers' Training Program</h4>
+                        <p>Modern farming techniques demonstration</p>
+                        <span class="gallery-date">August 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=300&fit=crop" alt="Women's empowerment session">
+                    <div class="gallery-overlay">
+                        <h4>Women's Empowerment Workshop</h4>
+                        <p>Leadership training for rural women</p>
+                        <span class="gallery-date">July 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop" alt="Community celebration">
+                    <div class="gallery-overlay">
+                        <h4>Project Completion Celebration</h4>
+                        <p>Celebrating successful water project completion</p>
+                        <span class="gallery-date">June 2024</span>
+                    </div>
+                </div>
+
+                <!-- Campaigns -->
+                <div class="gallery-item" data-category="campaigns">
+                    <img src="https://images.unsplash.com/photo-1541919329513-35f7af297129?w=400&h=300&fit=crop" alt="Clean water project">
+                    <div class="gallery-overlay">
+                        <h4>Clean Water Campaign</h4>
+                        <p>Installing water purification systems</p>
+                        <span class="gallery-date">May 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="campaigns">
+                    <img src="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=400&h=300&fit=crop" alt="Disaster relief efforts">
+                    <div class="gallery-overlay">
+                        <h4>Emergency Relief Distribution</h4>
+                        <p>Providing aid to flood-affected families</p>
+                        <span class="gallery-date">April 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="campaigns">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" alt="Environmental awareness">
+                    <div class="gallery-overlay">
+                        <h4>Environmental Awareness Campaign</h4>
+                        <p>Tree plantation and environmental education</p>
+                        <span class="gallery-date">March 2024</span>
+                    </div>
+                </div>
+
+                <!-- Training & Workshops -->
+                <div class="gallery-item" data-category="training">
+                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=400&h=300&fit=crop" alt="Leadership training">
+                    <div class="gallery-overlay">
+                        <h4>Leadership Development Workshop</h4>
+                        <p>Training community leaders and volunteers</p>
+                        <span class="gallery-date">February 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="training">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" alt="Skills training">
+                    <div class="gallery-overlay">
+                        <h4>Vocational Skills Training</h4>
+                        <p>Tailoring and handicraft training for women</p>
+                        <span class="gallery-date">January 2024</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="training">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop" alt="Team meeting">
+                    <div class="gallery-overlay">
+                        <h4>Staff Capacity Building</h4>
+                        <p>Internal training and development session</p>
+                        <span class="gallery-date">December 2023</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="health">
+                    <img src="https://images.unsplash.com/photo-1563213126-a4273aed2016?w=400&h=300&fit=crop" alt="Medical camp setup">
+                    <div class="gallery-overlay">
+                        <h4>Health Camp Preparation</h4>
+                        <p>Setting up temporary medical facilities</p>
+                        <span class="gallery-date">November 2023</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="education">
+                    <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=300&fit=crop" alt="Adult literacy class">
+                    <div class="gallery-overlay">
+                        <h4>Adult Literacy Program</h4>
+                        <p>Evening literacy classes for adults</p>
+                        <span class="gallery-date">October 2023</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=300&fit=crop" alt="Community meeting">
+                    <div class="gallery-overlay">
+                        <h4>Stakeholder Meeting</h4>
+                        <p>Discussing community development priorities</p>
+                        <span class="gallery-date">September 2023</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center mt-40">
+                <button class="btn btn-primary" id="load-more-btn">Load More Photos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Video Stories</h2>
+                <p class="section-subtitle">Watch the stories of change and impact from our programs</p>
+            </div>
+            <div class="video-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px;">
+                <div class="video-item card">
+                    <div class="video-thumbnail" style="position: relative; cursor: pointer;" onclick="playVideo(this, 'video1')">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=225&fit=crop" alt="Health program video thumbnail">
+                        <div class="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-content" style="padding: 20px;">
+                        <h4>Mobile Health Camps Impact</h4>
+                        <p>See how our mobile health camps are transforming healthcare access in remote communities across Nepal.</p>
+                        <span class="video-duration" style="color: var(--medium-gray); font-size: 14px;">Duration: 3:45</span>
+                    </div>
+                </div>
+
+                <div class="video-item card">
+                    <div class="video-thumbnail" style="position: relative; cursor: pointer;" onclick="playVideo(this, 'video2')">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=225&fit=crop" alt="Education program video thumbnail">
+                        <div class="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-content" style="padding: 20px;">
+                        <h4>Education Success Stories</h4>
+                        <p>Meet students whose lives have been transformed through our education support and scholarship programs.</p>
+                        <span class="video-duration" style="color: var(--medium-gray); font-size: 14px;">Duration: 5:20</span>
+                    </div>
+                </div>
+
+                <div class="video-item card">
+                    <div class="video-thumbnail" style="position: relative; cursor: pointer;" onclick="playVideo(this, 'video3')">
+                        <img src="https://images.unsplash.com/photo-1541919329513-35f7af297129?w=400&h=225&fit=crop" alt="Clean water project video thumbnail">
+                        <div class="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 20px;">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-content" style="padding: 20px;">
+                        <h4>Clean Water Campaign Journey</h4>
+                        <p>Follow our journey in providing clean water access to remote communities through innovative solutions.</p>
+                        <span class="video-duration" style="color: var(--medium-gray); font-size: 14px;">Duration: 4:15</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Photos -->
+    <section class="section">
+        <div class="container">
+            <div class="card text-center">
+                <div class="section-header">
+                    <h2 class="section-title">Share Your Photos</h2>
+                    <p class="section-subtitle">Have photos from our events or programs? We'd love to feature them!</p>
+                </div>
+                <p>If you have photos from our events, volunteer activities, or beneficiaries of our programs, please share them with us. Your photos help tell our story and inspire others to get involved.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
+                    <a href="mailto:media@bikalpbiswa.org" class="btn btn-primary">Email Photos</a>
+                    <a href="contact.html" class="btn btn-secondary">Submit via Form</a>
+                    <a href="#" class="btn btn-outline">Photo Guidelines</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>  support and associtation to helpignored SAATHI</h3>
+                    <p>Empowering communities through sustainable development programs and initiatives. We believe in creating lasting change that improves lives and builds stronger, more resilient communities.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="activities.html">Our Programs</a></li>
+                        <li><a href="campaign.html">Campaigns</a></li>
+                        <li><a href="work-with-us.html">Get Involved</a></li>
+                        <li><a href="gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="activities.html#healthcare">Health Care</a></li>
+                        <li><a href="activities.html#education">Education</a></li>
+                        <li><a href="activities.html#social-welfare">Social Welfare</a></li>
+                        <li><a href="activities.html#poverty-relief">Poverty Relief</a></li>
+                        <li><a href="campaign.html">Current Campaigns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                    <p><i class="fas fa-phone"></i> +977-1-4123456</p>
+                    <p><i class="fas fa-envelope"></i><saatgi389 class="gmail com"></saatgi389></p>
+                    <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 5:00 PM</p>
+                    
+                    <!-- Newsletter Signup -->
+                    <div class="mt-20">
+                        <h4>Newsletter</h4>
+                        <form id="newsletter-form">
+                            <div style="display: flex; gap: 10px; margin-top: 10px;">
+                                <input type="email" placeholder="Your email" required style="flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                                <button type="submit" class="btn btn-primary" style="padding: 8px 15px;">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bikalpbiswa Foundation. All rights reserved. | <a href="#" style="color: #4CAF50;">Privacy Policy</a> | <a href="#" style="color: #4CAF50;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Gallery-specific JavaScript -->
+    <script>
+        // Gallery filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.category-filter');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        if (category === 'all' || item.getAttribute('data-category') === category) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 50);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Load more functionality
+            let visibleItems = 15;
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            const allItems = Array.from(galleryItems);
+            
+            // Initially hide items beyond the visible limit
+            allItems.forEach((item, index) => {
+                if (index >= visibleItems) {
+                    item.style.display = 'none';
+                }
+            });
+
+            loadMoreBtn.addEventListener('click', function() {
+                const hiddenItems = allItems.filter(item => item.style.display === 'none');
+                const itemsToShow = hiddenItems.slice(0, 6);
+                
+                itemsToShow.forEach(item => {
+                    item.style.display = 'block';
+                    item.style.opacity = '0';
+                    item.style.transform = 'scale(0.8)';
+                    setTimeout(() => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'scale(1)';
+                    }, 100);
+                });
+
+                visibleItems += itemsToShow.length;
+                
+                if (hiddenItems.length <= 6) {
+                    loadMoreBtn.style.display = 'none';
+                }
+            });
+
+            // Check if load more button should be shown initially
+            if (allItems.length <= visibleItems) {
+                loadMoreBtn.style.display = 'none';
+            }
+        });
+
+        // Video player functionality
+        function playVideo(thumbnail, videoId) {
+            // Create video player overlay
+            const videoOverlay = document.createElement('div');
+            videoOverlay.className = 'video-overlay';
+            videoOverlay.innerHTML = `
+                <div class="video-player">
+                    <button class="video-close" onclick="closeVideo()">&times;</button>
+                    <video controls autoplay style="width: 100%; max-width: 800px; max-height: 450px;">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.w3schools.com/html/mov_bbb.mp4">link to the video</a> instead.</p>
+                    </video>
+                </div>
+            `;
+
+            // Add overlay styles
+            const style = document.createElement('style');
+            style.textContent = `
+                .video-overlay {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,0,0,0.9);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 9999;
+                }
+                .video-player {
+                    position: relative;
+                    max-width: 90%;
+                    max-height: 90%;
+                }
+                .video-close {
+                    position: absolute;
+                    top: -40px;
+                    right: -40px;
+                    background: none;
+                    border: none;
+                    color: white;
+                    font-size: 30px;
+                    cursor: pointer;
+                }
+            `;
+            document.head.appendChild(style);
+            document.body.appendChild(videoOverlay);
+        }
+
+        function closeVideo() {
+            const videoOverlay = document.querySelector('.video-overlay');
+            if (videoOverlay) {
+                videoOverlay.remove();
+            }
+        }
+
+        // Add transition styles for gallery items
+        const galleryStyles = document.createElement('style');
+        galleryStyles.textContent = `
+            .gallery-item {
+                transition: opacity 0.3s ease, transform 0.3s ease;
+            }
+            .category-filter.active {
+                background-color: var(--primary-green);
+                color: white;
+                border-color: var(--primary-green);
+            }
+        `;
+        document.head.appendChild(galleryStyles);
+    </script>
+</body>
+</html>
